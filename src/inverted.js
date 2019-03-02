@@ -1,9 +1,11 @@
 import React from 'react'
 import Box from 'superbox'
 
-export default ({ children }) =>
+const Inverted = ({ children }) =>
   <Box
     color='white'
     >
     {children}
 </Box>
+
+export default Inverted
