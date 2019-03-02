@@ -1,9 +1,9 @@
-import Layout from './layout'
-import Inverted from './inverted'
-import BGImage from './bg-image'
-import ImageLG from './large-image'
-import ImageXL from './xl-image'
-import Theme from './theme'
+import Layout from './Layout'
+import Inverted from './Inverted'
+import BGImage from './Bg'
+import ImageLG from './ImageLG'
+import ImageXL from './ImageXL'
+import Theme from './Theme'
 
 export { Layout, Inverted, BGImage, ImageLG, ImageXL }
 
