@@ -9,6 +9,4 @@ const IMG = styled.img`
   top: 50%;
   transform: translateY(-50%);
 `
-const BGImage = ({ src }) => <IMG src={src} />
-
-export default BGImage
+export default ({ src }) => <IMG src={src} />
