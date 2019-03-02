@@ -5,7 +5,8 @@
     "build": "mdx-deck build deck.mdx",
     "pdf": "mdx-deck pdf deck.mdx",
     "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
+    "help": "mdx-deck",
+    "now-build": "mdx-deck build deck.mdx --no-html && cp -r images dist/"
   },
   "devDependencies": {
     "mdx-deck": "^1.6.7"

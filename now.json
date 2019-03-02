@@ -1,1 +1,11 @@
-{}
+{
+    "version": 2,
+    "name": "working-with-engineers",
+    "builds": [
+      {"src": "package.json", "use": "@now/static-build"}
+    ],
+    "routes": [
+      { "src": "^/images/(.*)", "dest": "/images/$1" },
+      { "src": "index.html", "dest": "/index.html" }
+    ]
+  }
