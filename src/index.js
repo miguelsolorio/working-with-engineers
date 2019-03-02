@@ -1,5 +1,5 @@
-import Layout from './Layout'
-import Inverted from './Inverted'
+import Layout from './layout'
+import Inverted from './inverted'
 import BGImage from './bg-image'
 import ImageLG from './large-image'
 import ImageXL from './xl-image'
