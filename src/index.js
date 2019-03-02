@@ -1,7 +1,7 @@
 import Layout from './layout'
 import BGImage from './bg-image'
-import ImageLG from './ImageLG'
-import ImageXL from './ImageXL'
+import ImageLG from './image-large'
+import ImageXL from './image-xl'
 import theme from './theme'
 
 export { Layout, BGImage, ImageLG, ImageXL }
