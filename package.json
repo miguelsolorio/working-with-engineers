@@ -4,7 +4,7 @@
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx --no-html",
-    "now-build": "mdx-deck build deck.mdx --no-html && cp -r images dist/ && cp -r src dist/"
+    "now-build": "mdx-deck build deck.mdx --no-html && cp -r images dist/"
   },
   "devDependencies": {
     "mdx-deck": "^1.7.0"
